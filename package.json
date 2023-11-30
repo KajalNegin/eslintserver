@@ -2,14 +2,15 @@
   "name": "eslintnew",
   "version": "1.0.0",
   "description": "For eslinting of lwc",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pulkit",
   "license": "ISC",
   "dependencies": {
-    "@salesforce/eslint-config-lwc": "^3.5.2"
+    "@salesforce/eslint-config-lwc": "^3.5.2",
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "eslint": "^8.54.0"
