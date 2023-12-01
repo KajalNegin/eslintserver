@@ -12,13 +12,13 @@ let respon;
 
 shellCommand()
 
-/*app.get('', (req, res) => {
+app.get('', (req, res) => {
 
     console.log(typeof respon);
     res.send(respon);
-})*/
+})
 
-app.use(express.static(publicPath));
+//app.use(express.static(publicPath));
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
